@@ -14,9 +14,9 @@ int main()
     scanf("%f", &gpa);
     printf("What is your grade? ");
     scanf(" %c", &grade);
-    getchar();
+    getchar(); // Clears the new line character.
     printf("What is your name? ");
-    fgets(name, sizeof(name), stdin);
+    fgets(name, sizeof(name), stdin); // File get string | Size of function to calculate the size of the input.
 
     printf("%d\n", age);
     printf("%.2f\n", gpa);
